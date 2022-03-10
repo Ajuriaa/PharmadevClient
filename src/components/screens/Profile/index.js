@@ -4,7 +4,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Text } from "react-native-elements";
 import Icon from "react-native-vector-icons/FontAwesome";
 const { width, height } = Dimensions.get("screen");
-import { AuthContext } from '../../providers/Context';
+import { AuthContext } from '../../providers/context';
 import { estilos } from './styles';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import AwesomeAlert from 'react-native-awesome-alerts';

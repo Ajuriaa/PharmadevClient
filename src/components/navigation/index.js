@@ -14,7 +14,7 @@ import InformationScreen from '../screens/Information'
 import RPasswordScreen from "../screens/RPassword";
 import OrderScreen from "../screens/Order";
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { AuthContext } from "../providers/Context";
+import { AuthContext } from "../providers/context";
 import { Ionicons } from '@expo/vector-icons';
 
 const Stack = createNativeStackNavigator();

@@ -6,7 +6,7 @@ import Icon from "react-native-vector-icons/FontAwesome";
 import logo_vertical from '../../../assets/pharmadev.png';
 import AwesomeAlert from 'react-native-awesome-alerts';
 const { width, height } = Dimensions.get("screen");
-import { AuthContext } from '../../providers/Context';
+import { AuthContext } from '../../providers/context';
 
 const LoginScreen = ({ navigation }) => {
     const [email, setEmail] = useState("");

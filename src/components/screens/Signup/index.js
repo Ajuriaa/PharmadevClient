@@ -6,7 +6,7 @@ import Icon from "react-native-vector-icons/FontAwesome";
 import logo_vertical from '../../../assets/pharmadev.png';
 const { width, height } = Dimensions.get("screen");
 import AwesomeAlert from 'react-native-awesome-alerts';
-import { AuthContext } from '../../providers/Context';
+import { AuthContext } from '../../providers/context';
 import { estilos } from './styles';
 
 

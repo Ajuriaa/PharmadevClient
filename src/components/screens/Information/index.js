@@ -6,7 +6,7 @@ import * as ImagePicker from 'expo-image-picker';
 import defaultIMG from '../../../assets/default.jpg'
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import AwesomeAlert from 'react-native-awesome-alerts';
-import { AuthContext } from '../../providers/Context';
+import { AuthContext } from '../../providers/context';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { estilos } from './style';
 
